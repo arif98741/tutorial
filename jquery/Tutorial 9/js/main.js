@@ -5,6 +5,6 @@ $(document).ready(function(){
     //var c = $('#data').attr('data');
     var i = $('#inp').val();
 
-    console.log(i);
+    console.log(c);
   });
 });

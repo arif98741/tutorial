@@ -43,6 +43,9 @@
       font-family: 'Slabo 27px', serif;
       font-size: 20px;
     }
+
+    table{width: 100%; border: 1px solid #000; border-collapse: collapse;}
+    td,th{border: 1px solid #000}
   </style>
   <!-- <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet"> -->
 
@@ -51,16 +54,33 @@
 <body>
   <div class="wrapper">
     <div class="header">
-      <h1>Tutorial 9 - Jquery GET </h1>
+      <h1>Tutorial 10 - Jquery Add Elements </h1>
     </div>
     <div class="content">
-          <p id="data" data='5' class="simple-class">HI This is paragraph</p>
-          <input type="text" value="PHPDark.Com" id="inp">
-          <button id="btn">Click</button>
+      <!--
+          append
+          prepend
+          after
+          before
+     -->
+      <button id="btn">Click</button>
+      <table>
+        <tbody id="appsection">
+          <tr>
+            <th>SL</th>
+            <th>Name</th>
+            <th>Dist.</th>
+            <th>Roll</th>
+            <th>Action</th>
+          </tr>
+
+
+        </tbody>
+      </table>
+
     </div>
     <div class="footer">
       <h2>PHPDark.com | Ariful Islam</h2>
-
     </div>
   </div>
 
